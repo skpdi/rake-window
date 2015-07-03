@@ -10,6 +10,8 @@ object Dependencies {
 
   val scalaTest = "org.scalatest" %% "scalatest" % "3.0.0-M4"
   val dispatch = "net.databinder.dispatch" %% "dispatch-core" % "0.11.3"
+  val slf4j = "org.slf4j" % "slf4j-simple" % "1.7.12"
+  val config = "com.typesafe" % "config" % "1.3.0"
 
   val akkaDeps = Seq(
     akkaActor,
@@ -21,6 +23,8 @@ object Dependencies {
 
   val commonDeps = Seq(
     dispatch,
+    slf4j,
+    config,
     scalaTest % Test
   )
 }
