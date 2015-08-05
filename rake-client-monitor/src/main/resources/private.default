@@ -1,0 +1,14 @@
+rake {
+  liveToken = ""
+  devToken = ""
+
+  testHost = ""
+  testResource = ""
+  liveHost = ""
+  liveResource = ""
+}
+
+slack {
+  host = ""
+  resource = ""
+}
